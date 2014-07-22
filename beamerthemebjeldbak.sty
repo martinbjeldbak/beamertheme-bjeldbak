@@ -1,0 +1,54 @@
+% Insipired by Cameron Bracken's theme originally posted
+% here: http://cameron.bracken.bz/beamer-template
+% January 2009
+
+% Modifications done by Martin Bjeldbak Madsen 
+% June 2014
+\mode<presentation>
+
+\RequirePackage{palatino}
+
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+\usefonttheme{serif}
+
+\setbeamertemplate{footline} % show slide number on all slides but the first
+{%
+  \ifnum\c@framenumber=1
+  \else
+    \begin{beamercolorbox}[wd=0.95\paperwidth,right,dp=2ex]{page number}
+      \insertframenumber/\inserttotalframenumber
+    \end{beamercolorbox}
+  \fi%
+  \begin{beamercolorbox}[colsep=1.25pt]{lower separation line foot}
+  \end{beamercolorbox}
+}
+
+% Display a slide before the current section with overview inf
+\AtBeginSection[]
+{%
+   \begin{frame}
+       \frametitle{Overview}
+       \tableofcontents[currentsection,hideothersubsections]
+   \end{frame}
+}
+
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape}
+\setbeamerfont{section in head/foot}{shape=\scshape,size=\tiny}
+
+\setbeamertemplate{navigation symbols}{} % hide bottom nav buttons
+\setbeamercovered{transparent} % don't hide strip-teased bullet points
+
+\definecolor{barcolor}{HTML}{77C4D3} % teal
+\setbeamercolor{lower separation line head}{bg=barcolor} 
+\setbeamercolor{lower separation line foot}{bg=barcolor} 
+\setbeamercolor{normal text}{fg=black,bg=white} 
+\setbeamercolor{alerted text}{fg=red} 
+\setbeamercolor{example text}{fg=black} 
+\setbeamercolor{structure}{fg=black} 
+ 
+\setbeamercolor{palette tertiary}{fg=black,bg=black!10} 
+\setbeamercolor{palette quaternary}{fg=black,bg=black!10} 
+
+\mode<all>
