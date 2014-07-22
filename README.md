@@ -5,6 +5,16 @@ See my blog post accompanying this theme [here](http://martinbmadsen.dk/a-minima
 
 This theme started off as me modifying Cameron Bracken's theme published in his blog post [here](http://cameron.bracken.bz/beamer-template).
 
+## Installing
+
+Add this repository to your presentation like so
+
+```bash
+$ git clone git@github.com:fapper/beamertheme-bjeldbak.git
+```
+then, in your root or preamble set the relative path to ``beamerthemebjeldbak.sty`` as the style with ``usetheme{beamertheme-bjeldbak}``. 
+
+
 ## Screenshots
 
 ![Screenshot 1](/beamerthemebjeldbak1.png)
@@ -12,15 +22,8 @@ This theme started off as me modifying Cameron Bracken's theme published in his 
 ![Screenshot 3](/beamerthemebjeldbak3.png)
 ![Screenshot 4](/beamerthemebjeldbak4.png)
 
-## Installing
-
-Add this repository to your presentation
-
-```bash
-$ git clone git@github.com:fapper/beamertheme-bjeldbak.git
-```
-
-then in your root or preamble, set the relative path to ``beamerthemebjeldbak.sty`` as the style. Here is a minimum working example, having cloned as above:
+## Minimum working example
+Having cloned as above, this will compile a mini presentation.
 
 ```tex
 \documentclass{beamer}
