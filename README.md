@@ -12,14 +12,17 @@ Add this repository to your presentation like so
 ```bash
 $ git clone git@github.com:fapper/beamertheme-bjeldbak.git
 ```
-then, in your root or preamble set the relative path to ``beamerthemebjeldbak.sty`` as the style with ``\usetheme{beamertheme-bjeldbak}``. 
+then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{bjeldbak}``.
 
 
 ## Screenshots
 
 ![Screenshot 1](/beamerthemebjeldbak1.png)
+
 ![Screenshot 2](/beamerthemebjeldbak2.png)
+
 ![Screenshot 3](/beamerthemebjeldbak3.png)
+
 ![Screenshot 4](/beamerthemebjeldbak4.png)
 
 ## Minimum working example
