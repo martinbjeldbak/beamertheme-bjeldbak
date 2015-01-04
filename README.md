@@ -10,7 +10,7 @@ This theme started off as me modifying Cameron Bracken's theme published in his 
 Add this repository to your presentation like so
 
 ```bash
-$ git clone git@github.com:fapper/beamertheme-bjeldbak.git
+$ git clone git@github.com:martinbmadsen/beamertheme-bjeldbak.git
 ```
 then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{bjeldbak}``.
 
