@@ -17,13 +17,13 @@ then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentati
 
 ## Screenshots
 
-![Screenshot 1](/beamerthemebjeldbak1.png)
+![Screenshot 1](/screenshots/beamerthemebjeldbak1.png)
 
-![Screenshot 2](/beamerthemebjeldbak2.png)
+![Screenshot 2](/screenshots//beamerthemebjeldbak2.png)
 
-![Screenshot 3](/beamerthemebjeldbak3.png)
+![Screenshot 3](/screenshots/beamerthemebjeldbak3.png)
 
-![Screenshot 4](/beamerthemebjeldbak4.png)
+![Screenshot 4](/screenshots/beamerthemebjeldbak4.png)
 
 ## Minimum working example
 Having cloned as above, this will compile a mini presentation.
