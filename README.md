@@ -12,7 +12,7 @@ Add this repository to your presentation like so
 ```bash
 $ git clone git@github.com:martinbmadsen/beamertheme-bjeldbak.git
 ```
-then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{bjeldbak}``.
+then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{beamertheme-bjeldbak/bjeldbak}``.
 
 
 ## Screenshots
