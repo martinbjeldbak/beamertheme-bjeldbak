@@ -31,7 +31,7 @@ Having cloned as above, this will compile a mini presentation.
 ```tex
 \documentclass{beamer}
 
-\usetheme{beamertheme-bjeldbak/beamerthemebjeldbak}
+\usetheme{beamertheme-bjeldbak/bjeldbak}
 
 \title{Testing}
 \author{Martin Madsen}
