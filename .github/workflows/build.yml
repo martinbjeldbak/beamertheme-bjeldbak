@@ -1,6 +1,8 @@
 name: Build Example Presentation
 on:
   push:
+  schedule:
+    - cron:  '0 20 * * *' # run every day at 8:00pm
 jobs:
   build:
     name: Build
