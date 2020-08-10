@@ -34,7 +34,7 @@ Having cloned as above, this will compile a mini presentation.
 \usetheme{bjeldbak}
 
 \title{Testing}
-\author{Martin Madsen}
+\author{Martin Bjeldbak Madsen}
 
 \begin{document}
   {%
