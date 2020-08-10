@@ -3,8 +3,6 @@
 
 A simple beamer theme. I'm aiming for a minimalistic look.
 
-See my blog post accompanying this theme [here](http://martinbmadsen.dk/a-minimalistic-customizable-beamer-theme/) for more information.
-
 This theme started off as me modifying Cameron Bracken's theme published in his blog post [here](http://cameron.bracken.bz/beamer-template).
 
 ## Installing
@@ -14,7 +12,7 @@ Add this repository to your presentation like so
 ```bash
 $ git clone git@github.com:martinbmadsen/beamertheme-bjeldbak.git
 ```
-then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{beamertheme-bjeldbak/bjeldbak}``.
+then, in your root or preamble set ``beamerthemebjeldbak.sty`` as the presentation style with ``\usetheme{bjeldbak}``.
 
 
 ## Screenshots
