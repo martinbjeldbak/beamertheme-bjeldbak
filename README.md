@@ -1,5 +1,5 @@
 # beamertheme-bjeldbak
-![Build Example Presentation](https://github.com/martinbjeldbak/beamertheme-bjeldbak/workflows/Compile%20Example%20Presentation/badge.svg)
+[![Build Example Presentation](https://github.com/martinbjeldbak/beamertheme-bjeldbak/workflows/Compile%20Example%20Presentation/badge.svg)](https://github.com/martinbjeldbak/beamertheme-bjeldbak/actions)
 
 A simple beamer theme. I'm aiming for a minimalistic look.
 
