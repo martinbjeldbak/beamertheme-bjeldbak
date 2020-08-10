@@ -1,0 +1,23 @@
+name: Compile Example Presentation
+on:
+  push:
+  schedule:
+    - cron:  '0 20 * * *' # run every day at 8:00pm
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Compile document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: example.tex
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: Example Presentation PDF
+          path: example.pdf

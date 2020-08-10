@@ -1,4 +1,6 @@
 # beamertheme-bjeldbak
+[![Build Example Presentation](https://github.com/martinbjeldbak/beamertheme-bjeldbak/workflows/Compile%20Example%20Presentation/badge.svg)](https://github.com/martinbjeldbak/beamertheme-bjeldbak/actions)
+
 A simple beamer theme. I'm aiming for a minimalistic look.
 
 See my blog post accompanying this theme [here](http://martinbmadsen.dk/a-minimalistic-customizable-beamer-theme/) for more information.
@@ -31,10 +33,10 @@ Having cloned as above, this will compile a mini presentation.
 ```tex
 \documentclass{beamer}
 
-\usetheme{beamertheme-bjeldbak/bjeldbak}
+\usetheme{bjeldbak}
 
 \title{Testing}
-\author{Martin Madsen}
+\author{Martin Bjeldbak Madsen}
 
 \begin{document}
   {%
