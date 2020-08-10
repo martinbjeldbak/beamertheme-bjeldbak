@@ -1,4 +1,4 @@
-name: Build Example Presentation
+name: Compile Example Presentation
 on:
   push:
   schedule:

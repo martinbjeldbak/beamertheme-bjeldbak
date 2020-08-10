@@ -1,4 +1,6 @@
 # beamertheme-bjeldbak
+![Build Example Presentation](https://github.com/martinbjeldbak/beamertheme-bjeldbak/workflows/Compile%20Example%20Presentation/badge.svg)
+
 A simple beamer theme. I'm aiming for a minimalistic look.
 
 See my blog post accompanying this theme [here](http://martinbmadsen.dk/a-minimalistic-customizable-beamer-theme/) for more information.
